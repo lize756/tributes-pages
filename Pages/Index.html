@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<!-- Codificacion del lenguaje, en ingles o en español-->
+<meta charset="utf-8">
+
+ <!-- Relacion con el CSS -->
+ <link rel="stylesheet" href="./Styles.css">
+
+ <title> Tributes </title>
+ <!--Agreaga el icono al titulo -->
+ <link rel="icon" type="image/x-icon" href="../Img/mockingjay.png"/>
+
+ <!--Letras-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+ 
+ <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
+ <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="inicio">
+            <h1>TRIBUTO A LOS TRIBUTOS</h1>
+
+            <h2>No olvidas el rostro de la persona que fue <br> tu última esperanza.</h2>
+          
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <h3> TRIBUTOS </h3>
+        <div class="tributos">
+            
+            <img src="../Img/tributes.jpg" alt="">  
+            
+            <p>
+                Los tributos son aquellos niños que participan en los Juegos del Hambre.                
+                <br>
+                <br>
+                Casi siempre, son 24 tributos en total que participan en un batalla  a muerte. 
+                Y cada distrito tiene el mandato de proporcionar un tributo femenino y otro masculino para los Juegos del Hambre anuales. 
+                <br>
+                <br>
+
+                Los tributos están destinados a luchar hasta la muerte en la arena de los Juegos del 
+                Hambre, donde el ganador será coronado como el Vencedor. 
+            </p>
+
+    </section>
+
+    <section class="contenedor-dt">
+        <h3>DISTRITOS</h3>
+        <div class="contenedor">
+            <div class="owl-carousel">
+                <div> <img src="../Img/Districts/distrito1.jpg" alt="Juegos del Hambre Districto 1"> </div>
+                <div> <img src="../Img/Districts/distrito2.jpg" alt="Juegos del Hambre Districto 2"> </div> 
+                <div> <img src="../Img/Districts/distrito3.jpg" alt="Juegos del Hambre Districto 3"> </div>
+                <div> <img src="../Img/Districts/distrito4.jpg" alt="Juegos del Hambre Districto 4"> </div> 
+                <div> <img src="../Img/Districts/distrito5.jpg" alt="Juegos del Hambre Districto 5"> </div>
+                <div> <img src="../Img/Districts/distrito6.jpg" alt="Juegos del Hambre Districto 6"> </div> 
+                <div> <img src="../Img/Districts/distrito7.jpg" alt="Juegos del Hambre Districto 7"> </div>
+                <div> <img src="../Img/Districts/distrito8.jpg" alt="Juegos del Hambre Districto 8"> </div> 
+                <div> <img src="../Img/Districts/distrito9.jpg" alt="Juegos del Hambre Districto 9"> </div>
+                <div> <img src="../Img/Districts/distrito10.jpg" alt="Juegos del Hambre Districto 10"> </div> 
+                <div> <img src="../Img/Districts/distrito11.jpg" alt="Juegos del Hambre Districto 11"> </div>
+                <div> <img src="../Img/Districts/distrito12.jpg" alt="Juegos del Hambre Districto 12"> </div> 
+              </div>
+        </div>
+       
+
+    </section>
+
+
+    <script src="../owlcarousel/jquery.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:false,
+        margin:20,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+    </script>
+    
+</body>
+</html>

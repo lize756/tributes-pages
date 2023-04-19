@@ -1,0 +1,86 @@
+body {
+    font-family: 'Share Tech', sans-serif;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+header {
+    background: url("../img/landscape.jpg");   
+    height: 100vh;
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    color: #242e34
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio h1{
+    margin: 0%;
+    font-size: 100px;
+    padding-top: 300px;
+    color: #242e34; 
+}
+
+.inicio h2 {
+    font-size: 30px;
+    /*color: rgb(188, 188, 188);*/
+    color: #C0B9BE;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.tributos {
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    /*Centra los elementos*/
+    margin: auto;
+}
+
+.tributos p {
+    font-size: 20px;
+    margin-left: 50px;
+    width: 45%;
+    float: left;
+}
+
+.tributos img {
+    width: 40%;
+    height: 500px;
+    
+}
+
+.contenedor-dt {
+    background: #161B20;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.contenedor-dt h3 {
+    color: #C0B9BE;
+}
+
+.owl-carousel img {
+    height: 250px;
+    width: 100px;
+}
+
+.owl-nav {
+    text-align: center;
+}
