@@ -18,6 +18,12 @@ h3 {
     color: #242e34
 }
 
+h4 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
 .inicio {
     text-align: center;
 }
@@ -143,10 +149,28 @@ span {
     transform: translatey(0px);
 }
 
-.rue {
-    background-color: #767446;
+.homenaje {
+    display: flex;
 }
 
-.rue img{
-    border-color: #767446;
+.tributo {
+   background-color: #C0B9BE;
+   padding: 40px 40px 50px 40px;
+   margin-top: 30px;
 }
+
+.homenaje img {
+    width: 400px;
+}
+
+.tributo p {
+    font-size: 15px;
+}
+
+.secundario {
+    height: 334px;
+}
+
+
+
+
