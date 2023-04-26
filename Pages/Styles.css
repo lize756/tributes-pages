@@ -156,20 +156,23 @@ span {
 .tributo {
    background-color: #C0B9BE;
    padding: 40px 40px 50px 40px;
-   margin-top: 30px;
+   height: 370px;
+   /*margin-top: 30px;*/
 }
 
 .homenaje img {
     width: 400px;
+    height: 550px;
+    margin-bottom: 10px;
+    /*Opcional no se si me gusta con este toque*/
+    padding: 0 10px 0 10px;
+
 }
 
 .tributo p {
     font-size: 15px;
 }
 
-.secundario {
-    height: 334px;
-}
 
 
 
